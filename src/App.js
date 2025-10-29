@@ -7,7 +7,7 @@ import QRCodeDisplay from './components/QRCodeDisplay';
 import QRScanner from './components/QRScanner';
 
 // This URL will intelligently switch between your local server and your deployed server
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://q-gen-backend-t4rf.onrender.com';
 
 function App() {
   // State to control which view is active: 'generate' or 'scan'
